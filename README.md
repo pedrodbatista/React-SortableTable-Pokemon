@@ -2,8 +2,9 @@
 In this project was implemented a simple sortable table using mocked pokemon Data without the usage of any CSS framework
 Clicking on the arrow you can choose what is the sortable item you want in ascending or descending order
 
-How it should look in your http://localhost:3000/ once you run it
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/pedrodbatista/React-SortableTable-Pokemon/blob/main/Pokemon_table.png))
+How it should look in your http://localhost:3000/ once you run it.\
+
+![Pokemon_table](https://github.com/pedrodbatista/React-SortableTable-Pokemon/assets/80288516/b57943e0-cb98-41b8-80f0-c46337327778)
 
 
 ## Getting Started with Create React App
