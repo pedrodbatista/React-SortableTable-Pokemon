@@ -1,0 +1,82 @@
+/* Style for the entire table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for table headers */
+thead th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  cursor: pointer;
+}
+
+/* Style for table rows */
+tbody td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Style for alternating rows */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style for sorting buttons */
+.sort-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 0;
+}
+
+.sort-button:focus {
+  outline: none;
+}
+
+/* Style for the sorting button container */
+.sort-button-container {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Style for the sorting button */
+.sort-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px; /* Adjust the size as needed */
+  padding: 0;
+  width: 16px; /* Adjust the width as needed */
+  height: 16px; /* Adjust the height as needed */
+}
+
+/* Style for the ascending sorting button */
+.sort-button.active.ascending::before {
+  content: '▲';
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* Style for the descending sorting button */
+.sort-button.active.descending::before {
+  content: '▼';
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* Style for the default sorting button (neither ascending nor descending) */
+.sort-button.active:not(.ascending):not(.descending)::before {
+  content: '→'; /* Right arrow symbol */
+  display: inline-block;
+  margin-right: 5px;
+}
