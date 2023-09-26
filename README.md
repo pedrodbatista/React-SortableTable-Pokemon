@@ -7,6 +7,7 @@ How it should look in your http://localhost:3000/ once you run it.
 ![Pokemon_table](https://github.com/pedrodbatista/React-SortableTable-Pokemon/assets/80288516/b57943e0-cb98-41b8-80f0-c46337327778)
 
 
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,6 +15,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Available Scripts
 
 In the project directory, you can run:
+
+#### 'npm install'
+
+Run this in case you don't have all the node modules required to run .\
 
 #### `npm start`
 
