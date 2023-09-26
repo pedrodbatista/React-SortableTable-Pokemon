@@ -18,7 +18,7 @@ In the project directory, you can run:
 
 #### `npm install`
 
-Run this in case you don't have all the node modules required to run .\
+Run this in case you don't have all the node modules required to run .
 
 #### `npm start`
 
